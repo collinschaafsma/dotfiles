@@ -95,9 +95,25 @@ alias ps='ps aux'
 # Zippin
 alias gz='tar -zcvf'
 
+# Reload zshrc
+alias reload='source ~/.zshrc'
+
+# Editor
+alias v="mvim ."
+
+# Bundler
+alias b="bundle"
+alias be="bundle exec"
+
+# Heroku
+alias h="heroku"
+
+# No corrects
+alias mvim='nocorrect mvim'
+alias bundle='nocorrect bundle'
+
 # Ruby
-alias c='script/console --irb=pry'
-alias ms='mongrel_rails start'
+alias console='rails console --irb=pry'
 
 # Vim/ctags "mctags = make ctags", using the ruby specific version
 # to save some time
