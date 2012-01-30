@@ -34,7 +34,6 @@ alias ve='vi ~/.vimrc'
 
 # zsh profile editing
 alias ze='vi ~/.zshrc'
-alias zr='source ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -96,7 +95,7 @@ alias ps='ps aux'
 alias gz='tar -zcvf'
 
 # Reload zshrc
-alias reload='source ~/.zshrc'
+alias reload!='source ~/.zshrc'
 
 # Editor
 alias v="mvim ."
@@ -107,6 +106,10 @@ alias be="bundle exec"
 
 # Heroku
 alias h="heroku"
+alias doitlive='git push production master'
+alias daily='git push daily master'
+alias stage='git push stage master'
+alias hl='heroku logs -t'
 
 # No corrects
 alias mvim='nocorrect mvim'
@@ -114,6 +117,9 @@ alias bundle='nocorrect bundle'
 
 # Ruby
 alias console='rails console --irb=pry'
+alias foreman='bundle exec foreman start'
+alias spec='bundle exec rake spec'
+alias rake='bundle exec rake'
 
 # Vim/ctags "mctags = make ctags", using the ruby specific version
 # to save some time
