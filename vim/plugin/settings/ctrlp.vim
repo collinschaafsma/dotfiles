@@ -1,4 +1,4 @@
-let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$\|\vendor$'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|vendor'
 
 " Default to filename searches - so that appctrl will find application
 " controller
