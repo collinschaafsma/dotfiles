@@ -90,6 +90,7 @@ alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
 alias ps='ps aux'
+alias dev='cd ~/dev'
 
 # Zippin
 alias gz='tar -zcvf'
@@ -119,7 +120,7 @@ alias bundle='nocorrect bundle'
 alias console='rails console --irb=pry'
 alias foreman='bundle exec foreman start'
 alias spec='bundle exec rake spec'
-alias rake='bundle exec rake'
+alias brake='bundle exec rake'
 
 # Vim/ctags "mctags = make ctags", using the ruby specific version
 # to save some time
