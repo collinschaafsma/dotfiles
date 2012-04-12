@@ -98,3 +98,4 @@ set sidescroll=1
 
 set nohlsearch
 
+let g:ruby_doc_command='open'
