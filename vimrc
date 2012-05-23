@@ -99,3 +99,6 @@ set sidescroll=1
 set nohlsearch
 
 let g:ruby_doc_command='open'
+
+let g:ruby_conque_rspec_command='bundle exec rspec'
+

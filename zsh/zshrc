@@ -44,6 +44,8 @@ zstyle ':completion:*:approximate:*' max-errors 1 numeric
 # Add path to our custom bins
 export PATH=$yadr/bin:$yadr/bin/yadr:/Users/collin/.rbenv/shims:/Users/collin/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/Users/collin/.rbenv/shims:/Users/collin/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python
 
+# export PATH=$PATH:/usr/local/play-2.0
+
 chpwd() {
   if [ -f ".env" ]; then source .env; fi
 }
